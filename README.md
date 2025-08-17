@@ -40,6 +40,20 @@ A user-friendly graphical interface for [Gource](https://gource.io), the softwar
 
 2. **Run the installer:**
    
+   **🖥️ GUI Installer (Recommended):**
+   
+   **Windows:**
+   ```batch
+   gui_install.bat
+   ```
+   
+   **macOS/Linux:**
+   ```bash
+   ./gui_install.sh
+   ```
+   
+   **📟 Command-line Installer:**
+   
    **Windows:**
    ```batch
    install.bat
@@ -52,7 +66,8 @@ A user-friendly graphical interface for [Gource](https://gource.io), the softwar
    
    **Manual (all platforms):**
    ```bash
-   python3 install.py
+   python3 install.py        # Command-line
+   python3 gui_installer.py  # GUI
    ```
 
 The installer will automatically:

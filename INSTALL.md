@@ -4,13 +4,37 @@ This guide provides step-by-step instructions for installing Gource GUI on diffe
 
 ## 🚀 Quick Start (Automated Installation)
 
-### Windows
+### 🖥️ GUI Installer (Recommended)
+
+**Windows:**
+```batch
+# Double-click gui_install.bat or run in Command Prompt:
+gui_install.bat
+```
+
+**macOS / Linux:**
+```bash
+# Run in Terminal:
+./gui_install.sh
+# or
+bash gui_install.sh
+```
+
+**Manual GUI Installation:**
+```bash
+# Works on all platforms (requires tkinter):
+python3 gui_installer.py
+```
+
+### 📟 Command-line Installer
+
+**Windows:**
 ```batch
 # Double-click install.bat or run in Command Prompt:
 install.bat
 ```
 
-### macOS / Linux
+**macOS / Linux:**
 ```bash
 # Run in Terminal:
 ./install.sh
@@ -18,7 +42,7 @@ install.bat
 bash install.sh
 ```
 
-### Manual Python Installation
+**Manual Command-line Installation:**
 ```bash
 # Works on all platforms:
 python3 install.py
