@@ -30,22 +30,44 @@ A user-friendly graphical interface for [Gource](https://gource.io), the softwar
 
 ## Installation
 
-1. **Clone or download this repository**:
+### 🚀 Quick Start (Automated)
+
+1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd gource-gui
+   git clone https://github.com/tkosin/Gource-GUI.git
+   cd Gource-GUI
    ```
 
-2. **Create a virtual environment** (recommended):
+2. **Run the installer:**
+   
+   **Windows:**
+   ```batch
+   install.bat
+   ```
+   
+   **macOS/Linux:**
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+   ./install.sh
+   ```
+   
+   **Manual (all platforms):**
+   ```bash
+   python3 install.py
    ```
 
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+The installer will automatically:
+- Check system requirements
+- Install Python dependencies
+- Verify Gource and FFmpeg installation
+- Create desktop shortcuts
+- Test the installation
+
+### 📋 Requirements
+- **Python 3.7+** with tkinter
+- **Git** and **Gource** (required)
+- **FFmpeg** (optional, for video export)
+
+See [INSTALL.md](INSTALL.md) for detailed installation instructions and troubleshooting.
 
 ## Usage
 
