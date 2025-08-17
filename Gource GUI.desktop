@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Gource GUI
+Comment=GUI for Gource version control visualization - Double-click to launch
+Exec=bash -c "cd '%k' && ./\"Gource GUI.sh\""
+Icon=applications-multimedia
+Path=%k
+Terminal=true
+StartupNotify=true
+Categories=Development;Graphics;Utility;
+Keywords=gource;git;visualization;repository;version control;
+StartupWMClass=gource-gui

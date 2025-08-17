@@ -28,9 +28,9 @@ A user-friendly graphical interface for [Gource](https://gource.io), the softwar
    - **Linux**: `sudo apt-get install ffmpeg`
    - **Windows**: Download from [ffmpeg.org](https://ffmpeg.org)
 
-## Installation
+## Installation & Quick Start
 
-### 🚀 Quick Start (Automated)
+### 🚀 Super Easy Setup (3 Steps)
 
 1. **Clone the repository:**
    ```bash
@@ -38,37 +38,46 @@ A user-friendly graphical interface for [Gource](https://gource.io), the softwar
    cd Gource-GUI
    ```
 
-2. **Run the installer:**
+2. **Install (one-time setup):**
    
    **🖥️ GUI Installer (Recommended):**
    
-   **Windows:**
-   ```batch
-   gui_install.bat
-   ```
+   **Windows:** Double-click `gui_install.bat`  
+   **macOS/Linux:** Double-click `gui_install.sh`
    
-   **macOS/Linux:**
+   Or run in terminal:
    ```bash
-   ./gui_install.sh
+   ./gui_install.sh    # macOS/Linux
+   gui_install.bat     # Windows
    ```
+
+3. **Launch Gource GUI:**
    
-   **📟 Command-line Installer:**
+   **🎯 Double-Click Launchers:**
    
-   **Windows:**
-   ```batch
-   install.bat
-   ```
+   - **Windows:** Double-click `Gource GUI.bat`
+   - **macOS:** Double-click `Gource GUI.command`  
+   - **Linux:** Double-click `Gource GUI.sh` or `Gource GUI.desktop`
    
-   **macOS/Linux:**
+   **📟 Terminal Alternative:**
    ```bash
-   ./install.sh
+   ./run_gui.sh        # All platforms
+   python3 main.py     # Direct launch
    ```
-   
-   **Manual (all platforms):**
-   ```bash
-   python3 install.py        # Command-line
-   python3 gui_installer.py  # GUI
-   ```
+
+### 📚 More Installation Options
+
+**Command-line Installer:**
+```bash
+./install.sh          # macOS/Linux
+install.bat           # Windows
+```
+
+**Manual Installation:**
+```bash
+python3 install.py        # Command-line installer
+python3 gui_installer.py  # GUI installer
+```
 
 The installer will automatically:
 - Check system requirements
